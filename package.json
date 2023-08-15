@@ -4,13 +4,15 @@
   "description": "Node-REST",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "format": "prettier --write *.js"
+    "start": "node src/index.js",
+    "format": "prettier --write *.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.0.1",
     "prettier": "^3.0.1"
   },
   "dependencies": {
