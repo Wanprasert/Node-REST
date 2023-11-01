@@ -20,7 +20,7 @@ db.run(`CREATE TABLE IF NOT EXISTS scores (id INTEGER PRIMARY KEY,
 FOREIGN KEY(player_id) REFERENCES players(player_id) , 
 FOREIGN KEY(team_id) REFERENCES teams(team_id))`);
 
-//test
+
 
 // ดึงข้อมูล
 // ดูข้อมูลทั้งหมด
